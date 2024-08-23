@@ -67,6 +67,7 @@
 	<script src="{{ asset('backend/assets')}}/js/index.js"></script>
 	<!--app JS-->
 	<script src="{{ asset('backend/assets')}}/js/app.js"></script>
+	@yield('js')
 	<script>
 		new PerfectScrollbar(".app-container")
 	</script>
